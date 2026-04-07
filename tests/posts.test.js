@@ -1,6 +1,6 @@
 const request = require('supertest');
 const app = require('../index');
-const Post = require('../team-challenge-mongoose-testing/models/Post');
+const Post = require('../models/Post');
 const mongoose = require('mongoose');
 
 describe('Test de la Red Social', () => {
